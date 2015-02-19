@@ -21,6 +21,7 @@
 				<td><input type="text" id="<?php echo $access_token_name; ?>" name="<?php echo $access_token_name; ?>" value="<?php echo $access_token; ?>" class="regular-text" /></td>
 			</tr>
 		</table>
+		<p>You need a <a href="https://disqus.com/api/applications/" target="_new">disqus application</a> for Grid Disqus Boxes.</p>
 
 		<?php submit_button('Save',"primary"); ?>
 
